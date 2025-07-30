@@ -2,7 +2,7 @@
 
 body {
   padding: 4rem;
-  background: #f2f2f2 URL("https://cuerosvelezco.vtexassets.com/arquivos/web-to-case-desktop.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #f2f2f2 URL("https://cuerosvelezco.vtexassets.com/arquivos/web-to-case-desktop.png") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
