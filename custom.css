@@ -47,3 +47,8 @@ article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_brand {
   min-width: 150px;
   font-size: 1rem;
 }
+
+.siteforceDynamicLayout.siteforceContentArea div[data-region-name="content"] {
+  display: grid;
+  min-height: calc(100vh - 1rem);
+}
