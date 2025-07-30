@@ -1,8 +1,12 @@
 /* CSS GLOBAL Comunidade Velez */
 
+:root {
+  --bg1-color: ##f2f2f2;
+}
+
 body {
   padding-top: 1rem;
-  background: #f2f2f2 URL("https://cuerosvelezco.vtexassets.com/arquivos/web-to-case-desktop.png") !important;
+  background: var(--bg1-color) URL("https://cuerosvelezco.vtexassets.com/arquivos/web-to-case-desktop.png") !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-attachment: fixed !important;
@@ -17,7 +21,11 @@ body {
 }
 
 article[aria-label*="BaseWebtoCase"] {
-  background: #f2f2f2;
+  background: var(--bg1-color);
   padding: 2rem;
   border-radius: 12px;
+}
+
+article[aria-label*="BaseWebtoCase"] flowruntime-lwc-body {
+  background: #f2f2f2;
 }
