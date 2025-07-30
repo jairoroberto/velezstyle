@@ -13,3 +13,8 @@ body {
   background: transparent url("https://jairoroberto.github.io/velezstyle/logo-white.svg") no-repeat center;
   background-size: 340px;
 }
+
+flowruntime-flow.flowruntimeFlowRuntime {
+  border-radius: 12px;
+  border: 1px solid #fff;
+}
