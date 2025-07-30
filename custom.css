@@ -12,6 +12,7 @@ body {
   background-size: cover !important;
   background-attachment: fixed !important;
   min-height: 100vh;
+  font-family: "Inter", sans-serif !important;
 }
 
 .logo-custom {
