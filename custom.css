@@ -36,8 +36,10 @@ article[aria-label*="BaseWebtoCase"] flowruntime-lwc-body {
 
 article[aria-label*="BaseWebtoCase"] .navigationBar {
   padding: 1rem;
+  border-top: 1px dashed #ddd;
 }
-button.slds-button.slds-button_brand {
+
+article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_brand {
   background: #1a1a1a;
   border: none;
   padding: 8px;
