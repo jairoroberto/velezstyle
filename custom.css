@@ -16,8 +16,8 @@ body {
   background-size: 340px;
 }
 
-flowruntime-flow.flowruntimeFlowRuntime {
-  border-radius: 12px;
-  border: 1px solid #fff;
+article[aria-label*="BaseWebtoCase"] {
   background: #f2f2f2;
+  padding: 2rem;
+  border-radius: 12px;
 }
