@@ -2,6 +2,7 @@
 
 :root {
   --bg1-color: #f2f2f2;
+  --color-brand: #1a1a1a;
 }
 
 body {
@@ -35,4 +36,11 @@ article[aria-label*="BaseWebtoCase"] flowruntime-lwc-body {
 
 article[aria-label*="BaseWebtoCase"] .navigationBar {
   padding: 1rem;
+}
+button.slds-button.slds-button_brand {
+  background: #1a1a1a;
+  border: none;
+  padding: 8px;
+  min-width: 150px;
+  font-size: 1rem;
 }
