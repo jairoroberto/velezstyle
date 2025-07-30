@@ -22,10 +22,17 @@ body {
 
 article[aria-label*="BaseWebtoCase"] {
   background: var(--bg1-color);
-  padding: 2rem;
-  border-radius: 12px;
+  padding: 0;
+  border-radius: 8px;
+  border: none;
+  overflow: hidden;
 }
 
 article[aria-label*="BaseWebtoCase"] flowruntime-lwc-body {
   background: #f2f2f2;
+  padding: 1rem;
+}
+
+article[aria-label*="BaseWebtoCase"] .navigationBar {
+  padding: 1rem;
 }
