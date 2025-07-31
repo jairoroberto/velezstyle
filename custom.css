@@ -65,7 +65,7 @@ article[aria-label*="BaseWebtoCase"] {
   border: none;
   overflow: hidden;
   max-width: 860px;
-  margin: 0 auto;
+  margin: 0 auto 2rem auto;
 }
 
 article[aria-label*="BaseWebtoCase"] flowruntime-lwc-body {
