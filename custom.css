@@ -28,15 +28,15 @@ body {
     "meio"
     "rodape";
 }
-.siteforceSldsOneColLayout.siteforceContentArea div:nth:nth-child(1) {
+.siteforceSldsOneColLayout.siteforceContentArea .comm-content-header {
   grid-area: topo;
 }
 
-.siteforceSldsOneColLayout.siteforceContentArea div:nth:nth-child(2) {
+.siteforceSldsOneColLayout.siteforceContentArea .contentRegion {
   grid-area: meio;
 }
 
-.siteforceSldsOneColLayout.siteforceContentArea div:nth:nth-child(3) {
+.siteforceSldsOneColLayout.siteforceContentArea .comm-content-footer {
   grid-area: rodape;
 }
 
