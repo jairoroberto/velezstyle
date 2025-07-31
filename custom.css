@@ -29,11 +29,15 @@ body {
     "rodape";
 }
 .siteforceSldsOneColLayout.siteforceContentArea div:nth:nth-child(1) {
-  grid-area: topp;
+  grid-area: topo;
 }
 
 .siteforceSldsOneColLayout.siteforceContentArea div:nth:nth-child(2) {
   grid-area: meio;
+}
+
+.siteforceSldsOneColLayout.siteforceContentArea div:nth:nth-child(3) {
+  grid-area: rodape;
 }
 
 .logo-custom {
