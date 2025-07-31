@@ -20,6 +20,10 @@ body {
   margin-top: 0;
 }
 
+.siteforceSldsOneColLayout.siteforceContentArea {
+  min-height: 100vh;
+}
+
 .logo-custom {
   width: 100%;
   min-height: 100px;
