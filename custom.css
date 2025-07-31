@@ -58,6 +58,9 @@ article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_brand {
   display: block;
   visibility: hidden;
 }
+.siteforceStarterBody .footer {
+  background: #fff;
+}
 
 .siteforceDynamicLayout.siteforceContentArea {
   display: flex;
