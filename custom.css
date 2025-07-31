@@ -64,3 +64,6 @@ article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_brand {
   height: 100vh;
   margin-top: -2rem;
 }
+.siteforceDynamicLayout.siteforceContentArea div[data-region-name="content"] > div:last-child {
+  /* background: #fff; */
+}
