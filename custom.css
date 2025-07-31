@@ -2,6 +2,7 @@
 
 :root {
   --bg1-color: #f2f2f2;
+  --bg2-color: #f2f2f2;
   --color-brand: #1a1a1a;
 }
 
@@ -27,7 +28,7 @@ body {
     "topo"
     "meio"
     "rodape";
-  grid-template-rows: 15% auto 70px;
+  grid-template-rows: 120px auto 70px;
 }
 
 .siteforceSldsOneColLayout.siteforceContentArea .comm-content-header {
@@ -69,7 +70,7 @@ article[aria-label*="BaseWebtoCase"] {
 }
 
 article[aria-label*="BaseWebtoCase"] flowruntime-lwc-body {
-  background: #f2f2f2;
+  background: var(--bg2-color);
   padding: 1rem;
 }
 
@@ -92,10 +93,10 @@ article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_brand {
   grid-template-rows: 150px auto 100px; */
 }
 
-.siteforceStarterBody .cHeader {
+/* .siteforceStarterBody .cHeader {
   display: block;
   visibility: hidden;
-}
+} */
 .siteforceStarterBody .footer {
   background: #fff;
 }
