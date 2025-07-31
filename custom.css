@@ -21,7 +21,19 @@ body {
 }
 
 .siteforceSldsOneColLayout.siteforceContentArea {
+  display: grid;
   min-height: 100vh;
+  grid-template-areas:
+    "topo"
+    "meio"
+    "rodape";
+}
+.siteforceSldsOneColLayout.siteforceContentArea div:nth:nth-child(1) {
+  grid-area: topp;
+}
+
+.siteforceSldsOneColLayout.siteforceContentArea div:nth:nth-child(2) {
+  grid-area: meio;
 }
 
 .logo-custom {
