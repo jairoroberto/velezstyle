@@ -27,7 +27,9 @@ body {
     "topo"
     "meio"
     "rodape";
+  grid-template-rows: 15% auto 15%;
 }
+
 .siteforceSldsOneColLayout.siteforceContentArea .comm-content-header {
   grid-area: topo;
 }
@@ -38,6 +40,7 @@ body {
 
 .siteforceSldsOneColLayout.siteforceContentArea .comm-content-footer {
   grid-area: rodape;
+  background: #fff;
 }
 
 .logo-custom {
