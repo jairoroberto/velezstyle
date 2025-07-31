@@ -54,9 +54,9 @@ article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_brand {
 }
 
 .siteforceDynamicLayout.siteforceContentArea div[data-region-name="content"] {
-  display: grid;
-  /* min-height: calc(100vh - 1rem); */
-  grid-template-rows: 150px auto 100px;
+  /* display: grid;
+  min-height: calc(100vh - 1rem);
+  grid-template-rows: 150px auto 100px; */
 }
 
 .siteforceStarterBody .cHeader {
