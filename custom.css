@@ -10,14 +10,14 @@ body {
 
   /* min-height: 100vh; */
   font-family: "Inter", sans-serif !important;
-}
-
-.cCenterPanel.slds-m-top--x-large.slds-p-horizontal--medium {
-  margin-top: 0;
   background: var(--bg1-color) URL("https://cuerosvelezco.vtexassets.com/arquivos/web-to-case-desktop.png") !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   background-attachment: fixed !important;
+}
+
+.cCenterPanel.slds-m-top--x-large.slds-p-horizontal--medium {
+  margin-top: 0;
 }
 
 .logo-custom {
