@@ -91,6 +91,21 @@ article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_brand {
   font-size: 1rem;
 }
 
+article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_brand {
+  background: #1a1a1a;
+  border: 1px solid #1a1a1a;
+  padding: 8px;
+  min-width: 150px;
+  font-size: 1rem;
+}
+article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_neutral {
+  background: #fff;
+  border: 1px solid #1a1a1a;
+  padding: 8px;
+  min-width: 150px;
+  font-size: 1rem;
+}
+
 .siteforceDynamicLayout.siteforceContentArea div[data-region-name="content"] {
   /* display: grid;
   min-height: calc(100vh - 1rem);
