@@ -79,7 +79,8 @@ flowruntime-display-text-lwc[lwc-3anllt3fi9m] strong[lwc-4nfn2rc40ch] {
   /* background-color: #2fff28 !important; */
 }
 
-article[aria-label*="BaseWebtoCase"]:has(img) .slds-wrap p {
+article[aria-label*="BaseWebtoCase"]:has(img) .slds-wrap p span,
+article[aria-label*="BaseWebtoCase"]:has(img) .slds-wrap p strong {
   background: transparent !important;
 }
 
