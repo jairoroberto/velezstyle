@@ -75,6 +75,10 @@ article[aria-label*="BaseWebtoCase"] {
   margin: 0 auto 2rem auto;
 }
 
+article[aria-label*="BaseWebtoCase"] span {
+  background:var(--bg1-color);
+}
+
 article[aria-label*="BaseWebtoCase"] flowruntime-lwc-body {
   background: var(--bg2-color);
   padding: 1rem;
