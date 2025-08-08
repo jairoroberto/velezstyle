@@ -107,7 +107,7 @@ article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_neutral {
   padding: 8px;
   min-width: 150px;
   font-size: 1rem;
-  font-style: var(--bg1-color);
+  color:#1a1a1a;
 }
 
 .siteforceDynamicLayout.siteforceContentArea div[data-region-name="content"] {
