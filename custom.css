@@ -64,7 +64,6 @@ article[aria-label*="BaseWebtoCase"] {
   --lwc-progressBarColorBackgroundFill: #1a1a1a;
 }
 
-
 article[aria-label*="BaseWebtoCase"] {
   background: var(--bg1-color);
   padding: 0;
@@ -77,7 +76,11 @@ article[aria-label*="BaseWebtoCase"] {
 
 flowruntime-display-text-lwc[lwc-3anllt3fi9m] span[lwc-4nfn2rc40ch],
 flowruntime-display-text-lwc[lwc-3anllt3fi9m] strong[lwc-4nfn2rc40ch] {
-    background-color: #2fff28 !important;
+  /* background-color: #2fff28 !important; */
+}
+
+article[aria-label*="BaseWebtoCase"]:has(img) .slds-wrap p {
+  background: transparent !important;
 }
 
 article[aria-label*="BaseWebtoCase"] flowruntime-lwc-body {
@@ -112,7 +115,7 @@ article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_neutral {
   padding: 8px;
   min-width: 150px;
   font-size: 1rem;
-  color:#1a1a1a;
+  color: #1a1a1a;
 }
 
 .siteforceDynamicLayout.siteforceContentArea div[data-region-name="content"] {
