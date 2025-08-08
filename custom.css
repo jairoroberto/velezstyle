@@ -70,7 +70,7 @@ article[aria-label*="BaseWebtoCase"] {
   padding: 0;
   border-radius: 8px;
   border: none;
-  overflow: hidden;
+  /*overflow: hidden;*/
   max-width: 860px;
   margin: 0 auto 2rem auto;
 }
