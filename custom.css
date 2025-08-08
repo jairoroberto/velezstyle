@@ -41,7 +41,7 @@ body {
 
 .siteforceSldsOneColLayout.siteforceContentArea .comm-content-footer {
   grid-area: rodape;
-  background: #fff;
+  background: #1a1a1a;
 }
 
 .logo-custom {
@@ -100,12 +100,14 @@ article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_brand {
   min-width: 150px;
   font-size: 1rem;
 }
+
 article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_neutral {
   background: #fff;
   border: 1px solid #1a1a1a;
   padding: 8px;
   min-width: 150px;
   font-size: 1rem;
+  font-style: var(--bg1-color);
 }
 
 .siteforceDynamicLayout.siteforceContentArea div[data-region-name="content"] {
