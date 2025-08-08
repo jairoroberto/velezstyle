@@ -60,7 +60,7 @@ body {
 } */
 
 article[aria-label*="BaseWebtoCase"] {
-  --lwc-progressColorBorderActive: #099001;
+  --lwc-progressColorBorderActive: #099001; 
 }
 
 article[aria-label*="BaseWebtoCase"] .slds-progress__item.slds-is-completed .slds-icon-utility-success {
