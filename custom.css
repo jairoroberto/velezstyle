@@ -63,6 +63,10 @@ article[aria-label*="BaseWebtoCase"] {
   --lwc-progressColorBorderActive: #1a1a1a;
 }
 
+article[aria-label*="BaseWebtoCase"] .slds-progress__item.slds-is-completed .slds-progress__marker {
+  --lwc-progressColorBorderActive: #1a1a1a;
+}
+
 article[aria-label*="BaseWebtoCase"] {
   background: var(--bg1-color);
   padding: 0;
