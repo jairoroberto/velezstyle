@@ -75,8 +75,9 @@ article[aria-label*="BaseWebtoCase"] {
   margin: 0 auto 2rem auto;
 }
 
-article[aria-label*="BaseWebtoCase"] lightning-formatted-rich-text.slds-rich-text-editor__output span[lwc-4nfn2rc40ch] {
-    background-color: #ffeb3b !important; 
+flowruntime-display-text-lwc[lwc-3anllt3fi9m] span[lwc-4nfn2rc40ch],
+flowruntime-display-text-lwc[lwc-3anllt3fi9m] strong[lwc-4nfn2rc40ch] {
+    background-color: #2fff28 !important;
 }
 
 article[aria-label*="BaseWebtoCase"] flowruntime-lwc-body {
