@@ -62,9 +62,7 @@ body {
 article[aria-label*="BaseWebtoCase"] {
   --lwc-progressColorBorderActive: #1a1a1a;
   --lwc-progressBarColorBackgroundFill: #1a1a1a;
-  
 }
-
 
 
 article[aria-label*="BaseWebtoCase"] {
