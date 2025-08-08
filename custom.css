@@ -60,16 +60,12 @@ body {
 } */
 
 article[aria-label*="BaseWebtoCase"] {
-  --lwc-progressColorBorderActive: #099001; 
+  --lwc-progressColorBorderActive: #1a1a1a;
+  --lwc-progressBarColorBackgroundFill: #1a1a1a;
+  
 }
 
-article[aria-label*="BaseWebtoCase"] .slds-progress__item.slds-is-completed .slds-icon-utility-success {
-  --lwc-progressColorBorderActive: #1a1a1a;
-}
 
-article[aria-label*="BaseWebtoCase"] span.slds-progress__item.slds-is-completed .slds-icon-utility-success {
-  --lwc-progressColorBorderActive: #1a1a1a;
-}
 
 article[aria-label*="BaseWebtoCase"] {
   background: var(--bg1-color);
