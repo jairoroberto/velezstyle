@@ -94,7 +94,8 @@ article[aria-label*="BaseWebtoCase"]:has(img) .slds-wrap p strong {
   background: transparent !important;
 }
 
-article[aria-label*="BaseWebtoCase"] flowruntime-lwc-body {
+article[aria-label*="BaseWebtoCase"] flowruntime-lwc-body,
+article[aria-label*="BaseWebtoCase"] flowruntime-lwc-body  {
   background: var(--bg2-color);
   padding: 1rem;
 }
