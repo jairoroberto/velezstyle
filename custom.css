@@ -100,8 +100,7 @@ article[aria-label*="LibroReclamacionesPeru"] flowruntime-lwc-body  {
   padding: 1rem;
 }
 
-article[aria-label*="BaseWebtoCase"] .navigationBar,
-article[aria-label*="LibroReclamacionesPeru"] {
+article[aria-label*="BaseWebtoCase"] .navigationBar {
   padding: 1rem;
   border-top: 1px dashed #ddd;
 }
