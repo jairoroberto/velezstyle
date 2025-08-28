@@ -90,7 +90,9 @@ flowruntime-display-text-lwc[lwc-3anllt3fi9m] strong[lwc-4nfn2rc40ch] {
 }
 
 article[aria-label*="BaseWebtoCase"]:has(img) .slds-wrap p span,
-article[aria-label*="BaseWebtoCase"]:has(img) .slds-wrap p strong {
+article[aria-label*="BaseWebtoCase"]:has(img) .slds-wrap p strong,
+article[aria-label*="LibroReclamacionesPeru"]:has(img) .slds-wrap p span,
+article[aria-label*="LibroReclamacionesPeru"]:has(img) .slds-wrap p strong {
   background: transparent !important;
 }
 
