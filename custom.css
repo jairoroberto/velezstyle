@@ -99,7 +99,8 @@ article[aria-label*="BaseWebtoCase"] flowruntime-lwc-body {
   padding: 1rem;
 }
 
-article[aria-label*="BaseWebtoCase"] .navigationBar {
+article[aria-label*="BaseWebtoCase"] .navigationBar,
+article[aria-label*="LibroReclamacionesPeru"] {
   padding: 1rem;
   border-top: 1px dashed #ddd;
 }
@@ -113,7 +114,8 @@ article[aria-label*="LibroReclamacionesPeru"] button.slds-button.slds-button_bra
   font-size: 1rem;
 }
 
-article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_brand {
+article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_brand, 
+article[aria-label*="LibroReclamacionesPeru"] button.slds-button.slds-button_brand{
   background: #1a1a1a;
   border: 1px solid #1a1a1a;
   padding: 8px;
