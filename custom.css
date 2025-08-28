@@ -65,8 +65,7 @@ article[aria-label*="BaseWebtoCase"] {
 }
 
 
-article[aria-label*="BaseWebtoCase"],
-article[aria-label*="LibroReclamacionesPeru"] {
+article[aria-label*="BaseWebtoCase"] {
   background: var(--bg1-color);
   padding: 0;
   border-radius: 8px;
