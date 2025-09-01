@@ -65,7 +65,7 @@ article[aria-label*="WebtoCaseTiendas"] {
   --lwc-progressBarColorBackgroundFill: #1a1a1a;
 }
 
-article[aria-label*="BaseWebtoCase"]
+article[aria-label*="BaseWebtoCase"],
 article[aria-label*="WebtoCaseTiendas"]{
   background: var(--bg1-color);
   padding: 0;
@@ -117,7 +117,8 @@ article[aria-label*="BaseWebtoCase"] .navigationBar {
 }
 
 article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_brand,
-article[aria-label*="LibroReclamacionesPeru"] button.slds-button.slds-button_brand{
+article[aria-label*="LibroReclamacionesPeru"] button.slds-button.slds-button_brand,
+article[aria-label*="WebtoCaseTiendas"] button.slds-button.slds-button_brand {
   background: #1a1a1a;
   border: none;
   padding: 8px;
