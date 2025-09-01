@@ -59,12 +59,14 @@ body {
   overflow: hidden;
 } */
 
-article[aria-label*="BaseWebtoCase"] {
+article[aria-label*="BaseWebtoCase"],
+article[aria-label*="WebtoCaseTiendas"] {
   --lwc-progressColorBorderActive: #1a1a1a;
   --lwc-progressBarColorBackgroundFill: #1a1a1a;
 }
 
-article[aria-label*="BaseWebtoCase"]{
+article[aria-label*="BaseWebtoCase"]
+article[aria-label*="WebtoCaseTiendas"]{
   background: var(--bg1-color);
   padding: 0;
   border-radius: 8px;
@@ -92,7 +94,9 @@ flowruntime-display-text-lwc[lwc-3anllt3fi9m] strong[lwc-4nfn2rc40ch] {
 article[aria-label*="BaseWebtoCase"]:has(img) .slds-wrap p span,
 article[aria-label*="BaseWebtoCase"]:has(img) .slds-wrap p strong,
 article[aria-label*="LibroReclamacionesPeru"]:has(img) .slds-wrap p span,
-article[aria-label*="LibroReclamacionesPeru"]:has(img) .slds-wrap p strong {
+article[aria-label*="LibroReclamacionesPeru"]:has(img) .slds-wrap p strong,
+article[aria-label*="WebtoCaseTiendas"]:has(img) .slds-wrap p span,
+article[aria-label*="WebtoCaseTiendas"]:has(img) .slds-wrap p strong {
   background: transparent !important;
 }
 
@@ -101,7 +105,8 @@ article[aria-label*="LibroReclamacionesPeru"] .slds-wrap p strong {
 }
 
 article[aria-label*="BaseWebtoCase"] flowruntime-lwc-body,
-article[aria-label*="LibroReclamacionesPeru"] flowruntime-lwc-body  {
+article[aria-label*="LibroReclamacionesPeru"] flowruntime-lwc-body,
+article[aria-label*="WebtoCaseTiendas"] flowruntime-lwc-body  {
   background: var(--bg2-color);
   padding: 1rem;
 }
