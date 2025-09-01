@@ -60,12 +60,13 @@ body {
 } */
 
 article[aria-label*="BaseWebtoCase"],
-article[aria-label*="WebtoCaseTiendas"] {
+article[aria-label*="WebToCaseTiendas"] {
   --lwc-progressColorBorderActive: #1a1a1a;
   --lwc-progressBarColorBackgroundFill: #1a1a1a;
 }
 
-article[aria-label*="BaseWebtoCase"]{
+article[aria-label*="BaseWebtoCase"],
+article[aria-label*="WebToCaseTiendas"]{
   background: var(--bg1-color);
   padding: 0;
   border-radius: 8px;
@@ -75,15 +76,6 @@ article[aria-label*="BaseWebtoCase"]{
   margin: 0 auto 2rem auto;
 }
 
-article[aria-label*="WebtoCaseTiendas"]{
-  background: var(--bg1-color);
-  padding: 0;
-  border-radius: 8px;
-  border: none;
-  /*overflow: hidden;*/
-  max-width: 860px;
-  margin: 0 auto 2rem auto;
-}
 
 article[aria-label*="LibroReclamacionesPeru"] {
   background: var(--bg1-color);
@@ -104,8 +96,8 @@ article[aria-label*="BaseWebtoCase"]:has(img) .slds-wrap p span,
 article[aria-label*="BaseWebtoCase"]:has(img) .slds-wrap p strong,
 article[aria-label*="LibroReclamacionesPeru"]:has(img) .slds-wrap p span,
 article[aria-label*="LibroReclamacionesPeru"]:has(img) .slds-wrap p strong,
-article[aria-label*="WebtoCaseTiendas"]:has(img) .slds-wrap p span,
-article[aria-label*="WebtoCaseTiendas"]:has(img) .slds-wrap p strong {
+article[aria-label*="WebToCaseTiendas"]:has(img) .slds-wrap p span,
+article[aria-label*="WebToCaseTiendas"]:has(img) .slds-wrap p strong {
   background: transparent !important;
 }
 
@@ -115,7 +107,7 @@ article[aria-label*="LibroReclamacionesPeru"] .slds-wrap p strong {
 
 article[aria-label*="BaseWebtoCase"] flowruntime-lwc-body,
 article[aria-label*="LibroReclamacionesPeru"] flowruntime-lwc-body,
-article[aria-label*="WebtoCaseTiendas"] flowruntime-lwc-body  {
+article[aria-label*="WebToCaseTiendas"] flowruntime-lwc-body  {
   background: var(--bg2-color);
   padding: 1rem;
 }
@@ -127,7 +119,7 @@ article[aria-label*="BaseWebtoCase"] .navigationBar {
 
 article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_brand,
 article[aria-label*="LibroReclamacionesPeru"] button.slds-button.slds-button_brand,
-article[aria-label*="WebtoCaseTiendas"] button.slds-button.slds-button_brand {
+article[aria-label*="WebToCaseTiendas"] button.slds-button.slds-button_brand {
   background: #1a1a1a;
   border: none;
   padding: 8px;
