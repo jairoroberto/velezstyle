@@ -118,8 +118,7 @@ article[aria-label*="BaseWebtoCase"] .navigationBar {
 }
 
 article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_brand,
-article[aria-label*="LibroReclamacionesPeru"] button.slds-button.slds-button_brand,
-article[aria-label*="WebToCaseTiendas"] button.slds-button.slds-button_brand {
+article[aria-label*="LibroReclamacionesPeru"] button.slds-button.slds-button_brand {
   background: #1a1a1a;
   border: none;
   padding: 8px;
@@ -128,8 +127,7 @@ article[aria-label*="WebToCaseTiendas"] button.slds-button.slds-button_brand {
 }
 
 article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_brand, 
-article[aria-label*="LibroReclamacionesPeru"] button.slds-button.slds-button_brand,
-article[aria-label*="WebToCaseTiendas"] button.slds-button.slds-button_brand{
+article[aria-label*="LibroReclamacionesPeru"] button.slds-button.slds-button_brand{
   background: #1a1a1a;
   border: 1px solid #1a1a1a;
   padding: 8px;
