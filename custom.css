@@ -170,6 +170,7 @@ article[aria-label*="LibroReclamacionesPeru"] button.slds-button.slds-button_bra
   min-width: 150px;
   font-size: 1rem;
 }
+
 .slds-card.flowRuntimeForFlexipage.forceCommunityFlowCommunity article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_neutral {
   background: #fff;
   border: 1px solid #1a1a1a;
@@ -179,16 +180,6 @@ article[aria-label*="LibroReclamacionesPeru"] button.slds-button.slds-button_bra
   color: #1a1a1a;
 }
 
-.siteforceDynamicLayout.siteforceContentArea div[data-region-name="content"] {
-  /* display: grid;
-  min-height: calc(100vh - 1rem);
-  grid-template-rows: 150px auto 100px; */
-}
-
-/* .siteforceStarterBody .cHeader {
-  display: block;
-  visibility: hidden;
-} */
 .siteforceStarterBody .footer {
   background: #fff;
 }
