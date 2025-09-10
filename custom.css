@@ -59,6 +59,11 @@ body {
   overflow: hidden;
 } */
 
+.slds-card.flowRuntimeForFlexipage.forceCommunityFlowCommunity{
+  --lwc-progressColorBorderActive: #1a1a1a;
+  --lwc-progressBarColorBackgroundFill: #1a1a1a;
+}
+
 article[aria-label*="BaseWebtoCase"],
 article[aria-label*="WebToCaseTiendas"] {
   --lwc-progressColorBorderActive: #1a1a1a;
