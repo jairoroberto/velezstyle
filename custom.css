@@ -75,7 +75,7 @@ article[aria-label*="WebToCaseTiendas"] {
   max-width: 860px;
   margin: 0 auto 2rem auto;
 }
-
+/* Código wrap novo */
 .slds-card.flowRuntimeForFlexipage.forceCommunityFlowCommunity {
   background: var(--bg1-color);
   padding: 0;
@@ -96,17 +96,17 @@ article[aria-label*="LibroReclamacionesPeru"] {
   margin: 0 auto 2rem auto;
 }
 
-flowruntime-display-text-lwc[lwc-3anllt3fi9m] span[lwc-4nfn2rc40ch],
-flowruntime-display-text-lwc[lwc-3anllt3fi9m] strong[lwc-4nfn2rc40ch] {
-  /* background-color: #2fff28 !important; */
-}
-
 article[aria-label*="BaseWebtoCase"]:has(img) .slds-wrap p span,
 article[aria-label*="BaseWebtoCase"]:has(img) .slds-wrap p strong,
 article[aria-label*="LibroReclamacionesPeru"]:has(img) .slds-wrap p span,
 article[aria-label*="LibroReclamacionesPeru"]:has(img) .slds-wrap p strong,
 article[aria-label*="WebToCaseTiendas"]:has(img) .slds-wrap p span,
 article[aria-label*="WebToCaseTiendas"]:has(img) .slds-wrap p strong {
+  background: transparent !important;
+}
+
+.slds-card.flowRuntimeForFlexipage.forceCommunityFlowCommunity p span,
+.slds-card.flowRuntimeForFlexipage.forceCommunityFlowCommunity p strong {
   background: transparent !important;
 }
 
@@ -121,13 +121,32 @@ article[aria-label*="WebToCaseTiendas"] flowruntime-lwc-body {
   padding: 1rem;
 }
 
+.slds-card.flowRuntimeForFlexipage.forceCommunityFlowCommunity flowruntime-lwc-body,
+.slds-card.flowRuntimeForFlexipage.forceCommunityFlowCommunity flowruntime-lwc-body,
+.slds-card.flowRuntimeForFlexipage.forceCommunityFlowCommunity flowruntime-lwc-body {
+  background: var(--bg2-color);
+  padding: 1rem;
+}
+
 article[aria-label*="BaseWebtoCase"] .navigationBar {
+  padding: 1rem;
+  border-top: 1px dashed #ddd;
+}
+.slds-card.flowRuntimeForFlexipage.forceCommunityFlowCommunity .navigationBar {
   padding: 1rem;
   border-top: 1px dashed #ddd;
 }
 
 article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_brand,
 article[aria-label*="LibroReclamacionesPeru"] button.slds-button.slds-button_brand {
+  background: #1a1a1a;
+  border: none;
+  padding: 8px;
+  min-width: 150px;
+  font-size: 1rem;
+}
+.slds-card.flowRuntimeForFlexipage.forceCommunityFlowCommunity button.slds-button.slds-button_brand,
+.slds-card.flowRuntimeForFlexipage.forceCommunityFlowCommunity button.slds-button.slds-button_brand {
   background: #1a1a1a;
   border: none;
   padding: 8px;
@@ -144,7 +163,14 @@ article[aria-label*="LibroReclamacionesPeru"] button.slds-button.slds-button_bra
   font-size: 1rem;
 }
 
-article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_neutral {
+.slds-card.flowRuntimeForFlexipage.forceCommunityFlowCommunity button.slds-button.slds-button_brand {
+  background: #1a1a1a;
+  border: 1px solid #1a1a1a;
+  padding: 8px;
+  min-width: 150px;
+  font-size: 1rem;
+}
+.slds-card.flowRuntimeForFlexipage.forceCommunityFlowCommunity article[aria-label*="BaseWebtoCase"] button.slds-button.slds-button_neutral {
   background: #fff;
   border: 1px solid #1a1a1a;
   padding: 8px;
