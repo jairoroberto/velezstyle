@@ -64,6 +64,12 @@ body {
   --lwc-progressBarColorBackgroundFill: #1a1a1a;
 }
 
+.slds-card.flowRuntimeForFlexipage.forceCommunityFlowCommunity
+  .slds-progress-bar:hover {
+  --lwc-progressColorBorderActive: #008000;
+  --lwc-progressBarColorBackgroundFill: #008000;
+}
+
 article[aria-label*="BaseWebtoCase"],
 article[aria-label*="WebToCaseTiendas"] {
   --lwc-progressColorBorderActive: #1a1a1a;
